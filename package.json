@@ -1,0 +1,21 @@
+{
+  "name": "server-associations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Drew Blincoe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "sequelize": "^6.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
